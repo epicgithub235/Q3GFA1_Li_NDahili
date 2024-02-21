@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var nickname = "Karen";
+        var height = 62;
+        var heightft1 = Math.floor(height/12)
+        var heightft2 = height%12;
+        var weight = 50;
+        var weightlb = weight * 2.205;
+        alert('Name: ' + nickname +'\nHeight: ' + heightft1 + '\'' + heightft2 + '\'\'' + '\nWeight: ' + weightlb + ' lbs')
+
+        var firstname = prompt('What is your first name?')
+        var lastname = prompt('What is your last name?')
+        var year = prompt('What year were you born?')
+        var age = 2024 - year;
+        alert('Hello ' + firstname + ' ' + lastname + '! How does it feel to be ' + age + ' years old?')
+
+        let consent = "Would you like to share your information with our site?";
+        if (confirm(consent) == true) {
+            alert('Name: ' + nickname +'\nHeight: ' + heightft1 + '\'' + heightft2 + '\'\'' + '\nWeight: ' + weightlb + ' lbs');
+        } 
+        else {
+            alert('User does not wish to share his/her information.');
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
